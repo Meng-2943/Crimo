@@ -1,0 +1,9 @@
+displayname = Crimo
+version = 1.0.0
+author = 青翔未阔工作室
+homepage = https://ovywmw.aliwork.com/o/QXWK/Home
+
+hideCode = false
+hideResources = false
+includeSource = false
+includePDB = false
