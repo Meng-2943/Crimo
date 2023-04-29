@@ -21,13 +21,13 @@ namespace Crimo.Items.Guns//命名空间
 
         public override void SetDefaults()//特殊属性
         {
-            Item.width = 200;//物品宽度
-            Item.height = 200;//物品高度
+            Item.width = 8;//物品宽度
+            Item.height = 8;//物品高度
             Item.value = Item.buyPrice(gold: 3);//售价
 
             Item.useStyle = ItemUseStyleID.Shoot;//怎么用
-            Item.useTime = 8;//使用时间
-            Item.useAnimation = 8;//另一个使用时间
+            Item.useTime = 10;//使用时间
+            Item.useAnimation = 10;//另一个使用时间
             Item.autoReuse = true;//连续使用？
             Item.useTurn = true;//使用时可以转身？
             Item.UseSound = SoundID.Item1;//使用音效
@@ -51,7 +51,6 @@ namespace Crimo.Items.Guns//命名空间
 
             Item.shoot = ProjectileID.PurificationPowder;//子弹
 		    Item.shootSpeed = 10f;
-		    Item.useAmmo = AmmoID.Bullet;
         }
 
         public override Vector2? HoldoutOffset() //限制角度
@@ -59,12 +58,31 @@ namespace Crimo.Items.Guns//命名空间
 			return new Vector2(2f, -2f);
         }
 
-		public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback)//随机子弹
+		public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback) 
         {
 			type = Main.rand.Next(new int[] 
             { 
                 type, 
-                ModContent.ProjectileType<Projectiles.WateringCanProjectile>(), 
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() 
             });
 		}
 

@@ -14,7 +14,7 @@ namespace Crimo.Items.Weapons
         {
             DisplayName.SetDefault("混沌双刃 蓝");
             Tooltip.SetDefault("蓝色的");
-            Item.value = 4500000;
+            Item.value = Item.buyPrice(gold: 100);
             Item.width = 120;
             Item.height = 120;
             Item.maxStack = 1;
