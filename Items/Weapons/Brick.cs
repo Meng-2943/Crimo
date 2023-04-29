@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 
-namespace Crimo.Items//命名空间
+namespace Crimo.Items.Weapons//命名空间
 {
     public class Brick : ModItem//物品类型
     {
