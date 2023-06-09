@@ -7,14 +7,19 @@ Mods: {
 				Tooltip: 五彩缤纷的普通枪的子弹
 			}
 
-			Brick: {
-				DisplayName: 板砖
-				Tooltip: 子曰：“打架用砖乎，不亦说乎。”
-			}
-
 			ColorfulRegularGun: {
 				DisplayName: 五彩缤纷的普通枪
 				Tooltip: 攻速很快的枪
+			}
+
+			WateringCan: {
+				DisplayName: 水壶
+				Tooltip: 在花园右下角
+			}
+
+			Brick: {
+				DisplayName: 板砖
+				Tooltip: 子曰：“打架用砖乎，不亦说乎。”
 			}
 
 			ChaosTwinSwordsBlue: {
@@ -30,11 +35,6 @@ Mods: {
 			RedEmptySwords: {
 				DisplayName: 红空刃
 				Tooltip: 他有什么用呢？
-			}
-
-			WateringCan: {
-				DisplayName: 水壶
-				Tooltip: 在花园右下角
 			}
 		}
 

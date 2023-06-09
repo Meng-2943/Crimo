@@ -7,12 +7,12 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Crimo.Projectiles
+namespace Crimo.Projectiles.DingGunProjectile
 {
-	public class ColorfulRegularGunProjectileRed : ModProjectile
+	public class DingGunBullet13 : ModProjectile
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Colorful Regular Gun Projectile Red"); // The English name of the projectile
+			DisplayName.SetDefault("DingGun Bullet"); // The English name of the projectile
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5; // The length of old position to be recorded
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0; // The recording mode
 		}

@@ -82,22 +82,35 @@ namespace Crimo.Items.Guns//命名空间
                 ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
                 ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
                 ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
+                ModContent.ProjectileType<Projectiles.WateringCanProjectile>() ,
                 ModContent.ProjectileType<Projectiles.WateringCanProjectile>() 
             });
 		}
 
-        /*
         public override void AddRecipes()//合成表
         {
             Recipe recipe = CreateRecipe();//开头
-            recipe.AddIngredient(ItemID.AdamantiteBar, 2);//需要的物品
-            recipe.AddIngredient(ItemID.CrimtaneBar, 2);
-            recipe.AddIngredient(ItemID.PalladiumBar, 2);
+            recipe.AddIngredient(ItemID.WaterBucket, 2);//需要的物品
             recipe.AddIngredient(ItemID.HellstoneBar, 2);
-            recipe.AddIngredient<Test>(1);
             recipe.AddTile(TileID.WorkBenches);//需要的合成站
             recipe.Register();//结束
         }
-        */
     }
 }

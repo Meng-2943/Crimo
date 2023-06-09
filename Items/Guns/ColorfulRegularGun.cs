@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria;
 using Microsoft.Xna.Framework;
 
-using Crimo.Projectiles;//使用弹幕库
+using Crimo.Projectiles.ColorfulRegularGunProjectile;//使用弹幕库
 using Terraria.Audio;//使用音频
 
 namespace Crimo.Items.Guns//命名空间
@@ -64,28 +64,25 @@ namespace Crimo.Items.Guns//命名空间
 			type = Main.rand.Next(new int[] 
             { 
                 type, 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectileBlue>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectileGreen>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectileOrange>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectilePink>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectilePurple>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectileRed>(), 
-                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectileYellow>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectileBlue>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectileGreen>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectileOrange>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectilePink>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectilePurple>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectileRed>(), 
+                ModContent.ProjectileType<Projectiles.ColorfulRegularGunProjectile.ColorfulRegularGunProjectileYellow>(), 
             });
 		}
 
-        /*
         public override void AddRecipes()//合成表
         {
             Recipe recipe = CreateRecipe();//开头
-            recipe.AddIngredient(ItemID.AdamantiteBar, 2);//需要的物品
-            recipe.AddIngredient(ItemID.CrimtaneBar, 2);
-            recipe.AddIngredient(ItemID.PalladiumBar, 2);
-            recipe.AddIngredient(ItemID.HellstoneBar, 2);
-            recipe.AddIngredient<Test>(1);
+            recipe.AddIngredient(ItemID.GoldBar, 2);//需要的物品
+            recipe.AddIngredient(ItemID.SilverBar, 2);
+            recipe.AddIngredient(ItemID.CobaltBar, 2);
+            recipe.AddIngredient(ItemID.TungstenBar, 2);
             recipe.AddTile(TileID.WorkBenches);//需要的合成站
             recipe.Register();//结束
         }
-        */
     }
 }
