@@ -5,7 +5,6 @@
 
 ### - 有创意，不会写代码？ -
 > ###### 也许这个发起者可以把想法变成现实(不要指望太多)
-> ###### E-mail：[QxwkStudio@outlook.com](mailto:QxwkStudio@outlook.com)
 > ###### Bilibili：[米可-Micro](https://space.bilibili.com/1183597757/dynamic "米可-Micro 的个人空间")
 
 ### - 上传？ -
